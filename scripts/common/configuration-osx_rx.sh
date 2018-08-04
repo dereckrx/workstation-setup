@@ -17,5 +17,11 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 #to revert use defaults -currentHost delete com.apple.ImageCapture disableHotPlug
 
 # ---ADDITIONS----------------------------------------------
+
 # Show hidden files in finder
 defaults write com.apple.finder AppleShowAllFiles YES
+
+# set finder to display files in Column View
+defaults write com.apple.Finder FXPreferredViewStyle clmv
+
+killall Finder

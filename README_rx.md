@@ -31,3 +31,7 @@ cd workstation-setup
 ```
 
 Done!
+
+## TODO
+
+* iterm profile: Font size 12, show tab bar with only one tab
