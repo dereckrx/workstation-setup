@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+source ${MY_DIR}/scripts/common/download-pivotal-ide-prefs.sh
+pushd ~/workspace/pivotal_ide_prefs/cli
+./bin/ide_prefs install --ide=intellij
+popd

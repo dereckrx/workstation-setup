@@ -23,5 +23,6 @@ brew cask install iterm2
 # Text Editors
 
 brew cask install sublime-text
+brew cask install intellij-idea
 
 set -e

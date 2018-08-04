@@ -10,6 +10,10 @@
 
 # Fail immediately if any errors occur
 set -e
+echo
+echo "-----------------------------------------"
+echo "Workstation setup!"
+echo "-----------------------------------------"
 
 echo "Caching password..."
 sudo -K
@@ -41,3 +45,10 @@ echo "=== Running opt-in scripts ==="
 source ${MY_DIR}/scripts/opt-in/node_rx.sh
 source ${MY_DIR}/scripts/opt-in/docker_rx.sh
 source ${MY_DIR}/scripts/opt-in/ruby_rx.sh
+
+source ${MY_DIR}/scripts/intellij_rx.sh
+
+echo
+echo "-----------------------------------------"
+echo "Done!"
+echo "-----------------------------------------"

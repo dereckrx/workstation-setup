@@ -1,9 +1,11 @@
+#!/usr/bin/env bash
+
 # Don't stop if docker fails
 set +e
 
 # Docker
 brew cask install docker
-open /Applilcations/Docker.app
+open /Applications/Docker.app
 
 set -e
 
