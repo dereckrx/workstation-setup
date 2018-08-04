@@ -17,8 +17,7 @@ GIT_THEME_PROMPT_SUFFIX="${green}"
 # scm_prompt_info - ex: |master U:2 ?:1 ✗|
 
 function prompt_command() {
-    $(scm_prompt_info >/dev/null 2>&1)
-    PS1="\n${purple}\h${green} ${green}\w ${yellow}$(_git-branch)\n${green}\W${SCM_STATE} ${green}→${reset_color} "
+    PS1="\n${purple}\h${green} ${green}\w ${yellow}$(scm_prompt_info)\n${green}\W ${green}→${reset_color} "
 }
 
 PROMPT_COMMAND=prompt_command;
