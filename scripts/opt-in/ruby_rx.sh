@@ -8,11 +8,11 @@ brew install rbenv
 
 cp files/.irbrc ~/.irbrc # Keep history in irb sessions
 
-if [ -x "$(which bash-it)" ]; then
+#if [ -x "$(command -v bash-it)" ]; then
     bash-it enable plugin rbenv
-else
-    echo "bash-it not installed."
-fi
+#else
+#    echo "bash-it not installed."
+#fi
 
 # ruby-build is needed for installing ruby versions
 # * ruby-build requires readline
