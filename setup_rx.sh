@@ -47,6 +47,7 @@ source ${MY_DIR}/scripts/opt-in/docker_rx.sh
 source ${MY_DIR}/scripts/opt-in/ruby_rx.sh
 
 source ${MY_DIR}/scripts/intellij_rx.sh
+source ${MY_DIR}/scripts/quicklook_plugins.sh
 
 echo
 echo "-----------------------------------------"
