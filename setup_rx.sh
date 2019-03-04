@@ -45,6 +45,14 @@ echo "=== Running opt-in scripts ==="
 source ${MY_DIR}/scripts/opt-in/node_rx.sh
 source ${MY_DIR}/scripts/opt-in/docker_rx.sh
 source ${MY_DIR}/scripts/opt-in/ruby_rx.sh
+source ${MY_DIR}/scripts/opt-in/java.sh
+
+# More opt-ins
+brew install scala
+brew install sbt@1
+brew install kotlin
+brew install clojure
+
 
 source ${MY_DIR}/scripts/intellij_rx.sh
 source ${MY_DIR}/scripts/quicklook_plugins.sh
